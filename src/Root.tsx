@@ -8,6 +8,7 @@ import {BuffettIndex10s} from './scenes/BuffettIndex10s';
 import {FullBuffettVideo} from './FullBuffettVideo';
 import {DividendRetirementVideo} from './DividendRetirementVideo';
 import {ETFGridTradingVideo} from './ETFGridTradingVideo';
+import {ETFExplainerVideo} from './ETFExplainerVideo';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -62,6 +63,16 @@ export const RemotionRoot: React.FC = () => {
           id="ETFGridTradingVideo"
           component={ETFGridTradingVideo}
           durationInFrames={11588}
+          fps={30}
+          width={1920}
+          height={1080}
+        />
+      </Folder>
+      <Folder name="ETF到底是个啥">
+        <Composition
+          id="ETFExplainerVideo"
+          component={ETFExplainerVideo}
+          durationInFrames={12424}
           fps={30}
           width={1920}
           height={1080}

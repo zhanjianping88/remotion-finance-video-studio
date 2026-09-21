@@ -12,6 +12,7 @@ npm run start
 打开 Remotion Studio 后，可以预览这些 Composition：
 
 - `ETFGridTradingVideo`：ETF 网格交易操作指南
+- `ETFExplainerVideo`：ETF 到底是个啥？
 - `DividendRetirementVideo`：攒够100万，全买红利ETF退休？
 - `20WeekMovingAverage`：20周均线做T
 - `BuffettFullVideo`：巴菲特选股知识视频
@@ -22,6 +23,12 @@ npm run start
 npx remotion render ETFGridTradingVideo out/etf-grid-trading/etf-grid-trading.mp4
 ```
 
+渲染 ETF 入门视频：
+
+```bash
+npx remotion render ETFExplainerVideo out/etf-explainer/etf-explainer.mp4
+```
+
 视频使用的旁白、字幕和音效位于 `public/`。当前网格交易视频采用：
 
 - 那不勒斯黄：`#fdca17`
@@ -29,3 +36,4 @@ npx remotion render ETFGridTradingVideo out/etf-grid-trading/etf-grid-trading.mp
 - 白粉：`#fff2df`
 
 最终示例成片位于 `examples/etf-grid-trading/`。
+ETF 入门示例成片位于 `examples/etf-explainer/`，包含 MP4、原稿和时间轴字幕。
